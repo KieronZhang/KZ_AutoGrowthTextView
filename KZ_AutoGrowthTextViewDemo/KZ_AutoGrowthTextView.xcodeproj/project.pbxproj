@@ -13,7 +13,7 @@
 		AE04CC5C1EABAC78006B4499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE04CC5A1EABAC78006B4499 /* Main.storyboard */; };
 		AE04CC5E1EABAC78006B4499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE04CC5D1EABAC78006B4499 /* Assets.xcassets */; };
 		AE04CC611EABAC78006B4499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE04CC5F1EABAC78006B4499 /* LaunchScreen.storyboard */; };
-		AEA5EBDC1FC2A71B003D7BD1 /* KZ_AutoGrowthTextViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBDB1FC2A71B003D7BD1 /* KZ_AutoGrowthTextViewFramework.framework */; };
+		AE9A25EC1FC5E44300668BA7 /* KZ_AutoGrowthTextViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25EB1FC5E44300668BA7 /* KZ_AutoGrowthTextViewFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +40,7 @@
 		AE04CC5D1EABAC78006B4499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE04CC601EABAC78006B4499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE04CC621EABAC78006B4499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEA5EBDB1FC2A71B003D7BD1 /* KZ_AutoGrowthTextViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AutoGrowthTextViewFramework.framework; sourceTree = "<group>"; };
+		AE9A25EB1FC5E44300668BA7 /* KZ_AutoGrowthTextViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AutoGrowthTextViewFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA5EBDC1FC2A71B003D7BD1 /* KZ_AutoGrowthTextViewFramework.framework in Frameworks */,
+				AE9A25EC1FC5E44300668BA7 /* KZ_AutoGrowthTextViewFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		AEA5EBDA1FC2A71B003D7BD1 /* AutoGrowthTextView */ = {
 			isa = PBXGroup;
 			children = (
-				AEA5EBDB1FC2A71B003D7BD1 /* KZ_AutoGrowthTextViewFramework.framework */,
+				AE9A25EB1FC5E44300668BA7 /* KZ_AutoGrowthTextViewFramework.framework */,
 			);
 			path = AutoGrowthTextView;
 			sourceTree = "<group>";
