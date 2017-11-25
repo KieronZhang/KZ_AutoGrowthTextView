@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    KZ_AutoGrowthTextView *textView = [[KZ_AutoGrowthTextView alloc] initWithFrame:CGRectMake(10, 20, CGRectGetWidth(self.view.bounds) - 20, 40)];
+    KZ_AutoGrowthTextView *textView = [[KZ_AutoGrowthTextView alloc] initWithFrame:CGRectMake(10, 50, CGRectGetWidth(self.view.bounds) - 20, 40)];
     textView.delegate = self;
     textView.backgroundColor = [UIColor greenColor];
     textView.textColor = [UIColor redColor];
