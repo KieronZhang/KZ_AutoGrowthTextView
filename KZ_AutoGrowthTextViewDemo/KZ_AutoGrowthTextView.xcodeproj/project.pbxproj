@@ -7,48 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE04CC531EABAC78006B4499 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04CC521EABAC78006B4499 /* main.m */; };
-		AE04CC561EABAC78006B4499 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04CC551EABAC78006B4499 /* AppDelegate.m */; };
-		AE04CC591EABAC78006B4499 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04CC581EABAC78006B4499 /* ViewController.m */; };
-		AE04CC5C1EABAC78006B4499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE04CC5A1EABAC78006B4499 /* Main.storyboard */; };
-		AE04CC5E1EABAC78006B4499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE04CC5D1EABAC78006B4499 /* Assets.xcassets */; };
-		AE04CC611EABAC78006B4499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE04CC5F1EABAC78006B4499 /* LaunchScreen.storyboard */; };
-		AE9A25EC1FC5E44300668BA7 /* KZ_AutoGrowthTextViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25EB1FC5E44300668BA7 /* KZ_AutoGrowthTextViewFramework.framework */; };
+		AEC62E4020A1465300DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62E3F20A1465300DFC8B9 /* AppDelegate.m */; };
+		AEC62E4320A1465300DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62E4220A1465300DFC8B9 /* ViewController.m */; };
+		AEC62E4620A1465300DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62E4420A1465300DFC8B9 /* Main.storyboard */; };
+		AEC62E4820A1465400DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC62E4720A1465400DFC8B9 /* Assets.xcassets */; };
+		AEC62E4B20A1465400DFC8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62E4920A1465400DFC8B9 /* LaunchScreen.storyboard */; };
+		AEC62E4E20A1465400DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62E4D20A1465400DFC8B9 /* main.m */; };
+		AEC62E5420A1469100DFC8B9 /* KZ_AutoGrowthTextView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62E5320A1469100DFC8B9 /* KZ_AutoGrowthTextView_iOS.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		AEDC0E9C1FC1A0E200752728 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		AE04CC4E1EABAC78006B4499 /* KZ_AutoGrowthTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_AutoGrowthTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE04CC521EABAC78006B4499 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE04CC541EABAC78006B4499 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AE04CC551EABAC78006B4499 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE04CC571EABAC78006B4499 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE04CC581EABAC78006B4499 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AE04CC5B1EABAC78006B4499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE04CC5D1EABAC78006B4499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE04CC601EABAC78006B4499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE04CC621EABAC78006B4499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE9A25EB1FC5E44300668BA7 /* KZ_AutoGrowthTextViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AutoGrowthTextViewFramework.framework; sourceTree = "<group>"; };
+		AEC62E3C20A1465300DFC8B9 /* KZ_AutoGrowthTextView_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_AutoGrowthTextView_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC62E3E20A1465300DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC62E3F20A1465300DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC62E4120A1465300DFC8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEC62E4220A1465300DFC8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEC62E4520A1465300DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC62E4720A1465400DFC8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC62E4A20A1465400DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC62E4C20A1465400DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC62E4D20A1465400DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC62E5320A1469100DFC8B9 /* KZ_AutoGrowthTextView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AutoGrowthTextView_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE04CC4B1EABAC78006B4499 /* Frameworks */ = {
+		AEC62E3920A1465300DFC8B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9A25EC1FC5E44300668BA7 /* KZ_AutoGrowthTextViewFramework.framework in Frameworks */,
+				AEC62E5420A1469100DFC8B9 /* KZ_AutoGrowthTextView_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +45,7 @@
 		AE04CC451EABAC78006B4499 = {
 			isa = PBXGroup;
 			children = (
-				AE04CC501EABAC78006B4499 /* KZ_AutoGrowthTextView */,
+				AEC62E3D20A1465300DFC8B9 /* KZ_AutoGrowthTextView_iOS */,
 				AE04CC4F1EABAC78006B4499 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,40 +53,32 @@
 		AE04CC4F1EABAC78006B4499 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE04CC4E1EABAC78006B4499 /* KZ_AutoGrowthTextView.app */,
+				AEC62E3C20A1465300DFC8B9 /* KZ_AutoGrowthTextView_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE04CC501EABAC78006B4499 /* KZ_AutoGrowthTextView */ = {
+		AEC62E3D20A1465300DFC8B9 /* KZ_AutoGrowthTextView_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AE04CC541EABAC78006B4499 /* AppDelegate.h */,
-				AE04CC551EABAC78006B4499 /* AppDelegate.m */,
-				AE04CC571EABAC78006B4499 /* ViewController.h */,
-				AE04CC581EABAC78006B4499 /* ViewController.m */,
-				AEA5EBDA1FC2A71B003D7BD1 /* AutoGrowthTextView */,
-				AE04CC5A1EABAC78006B4499 /* Main.storyboard */,
-				AE04CC5D1EABAC78006B4499 /* Assets.xcassets */,
-				AE04CC5F1EABAC78006B4499 /* LaunchScreen.storyboard */,
-				AE04CC621EABAC78006B4499 /* Info.plist */,
-				AE04CC511EABAC78006B4499 /* Supporting Files */,
+				AEC62E3E20A1465300DFC8B9 /* AppDelegate.h */,
+				AEC62E3F20A1465300DFC8B9 /* AppDelegate.m */,
+				AEC62E4120A1465300DFC8B9 /* ViewController.h */,
+				AEC62E4220A1465300DFC8B9 /* ViewController.m */,
+				AEC62E5220A1469100DFC8B9 /* AutoGrowthTextView */,
+				AEC62E4420A1465300DFC8B9 /* Main.storyboard */,
+				AEC62E4720A1465400DFC8B9 /* Assets.xcassets */,
+				AEC62E4920A1465400DFC8B9 /* LaunchScreen.storyboard */,
+				AEC62E4C20A1465400DFC8B9 /* Info.plist */,
+				AEC62E4D20A1465400DFC8B9 /* main.m */,
 			);
-			path = KZ_AutoGrowthTextView;
+			path = KZ_AutoGrowthTextView_iOS;
 			sourceTree = "<group>";
 		};
-		AE04CC511EABAC78006B4499 /* Supporting Files */ = {
+		AEC62E5220A1469100DFC8B9 /* AutoGrowthTextView */ = {
 			isa = PBXGroup;
 			children = (
-				AE04CC521EABAC78006B4499 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AEA5EBDA1FC2A71B003D7BD1 /* AutoGrowthTextView */ = {
-			isa = PBXGroup;
-			children = (
-				AE9A25EB1FC5E44300668BA7 /* KZ_AutoGrowthTextViewFramework.framework */,
+				AEC62E5320A1469100DFC8B9 /* KZ_AutoGrowthTextView_iOS.framework */,
 			);
 			path = AutoGrowthTextView;
 			sourceTree = "<group>";
@@ -107,22 +86,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE04CC4D1EABAC78006B4499 /* KZ_AutoGrowthTextView */ = {
+		AEC62E3B20A1465300DFC8B9 /* KZ_AutoGrowthTextView_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE04CC651EABAC78006B4499 /* Build configuration list for PBXNativeTarget "KZ_AutoGrowthTextView" */;
+			buildConfigurationList = AEC62E5120A1465400DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_AutoGrowthTextView_iOS" */;
 			buildPhases = (
-				AE04CC4A1EABAC78006B4499 /* Sources */,
-				AE04CC4B1EABAC78006B4499 /* Frameworks */,
-				AE04CC4C1EABAC78006B4499 /* Resources */,
-				AEDC0E9C1FC1A0E200752728 /* Embed Frameworks */,
+				AEC62E3820A1465300DFC8B9 /* Sources */,
+				AEC62E3920A1465300DFC8B9 /* Frameworks */,
+				AEC62E3A20A1465300DFC8B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KZ_AutoGrowthTextView;
-			productName = KZ_AutoGrowthTextView;
-			productReference = AE04CC4E1EABAC78006B4499 /* KZ_AutoGrowthTextView.app */;
+			name = KZ_AutoGrowthTextView_iOS;
+			productName = KZ_AutoGrowthTextView_iOS;
+			productReference = AEC62E3C20A1465300DFC8B9 /* KZ_AutoGrowthTextView_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,11 +109,11 @@
 		AE04CC461EABAC78006B4499 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Kieron Zhang";
 				TargetAttributes = {
-					AE04CC4D1EABAC78006B4499 = {
-						CreatedOnToolsVersion = 8.3.2;
+					AEC62E3B20A1465300DFC8B9 = {
+						CreatedOnToolsVersion = 9.3;
 						DevelopmentTeam = TGTFTDLM8G;
 						ProvisioningStyle = Automatic;
 					};
@@ -154,50 +132,50 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE04CC4D1EABAC78006B4499 /* KZ_AutoGrowthTextView */,
+				AEC62E3B20A1465300DFC8B9 /* KZ_AutoGrowthTextView_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE04CC4C1EABAC78006B4499 /* Resources */ = {
+		AEC62E3A20A1465300DFC8B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE04CC611EABAC78006B4499 /* LaunchScreen.storyboard in Resources */,
-				AE04CC5E1EABAC78006B4499 /* Assets.xcassets in Resources */,
-				AE04CC5C1EABAC78006B4499 /* Main.storyboard in Resources */,
+				AEC62E4B20A1465400DFC8B9 /* LaunchScreen.storyboard in Resources */,
+				AEC62E4820A1465400DFC8B9 /* Assets.xcassets in Resources */,
+				AEC62E4620A1465300DFC8B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE04CC4A1EABAC78006B4499 /* Sources */ = {
+		AEC62E3820A1465300DFC8B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE04CC591EABAC78006B4499 /* ViewController.m in Sources */,
-				AE04CC561EABAC78006B4499 /* AppDelegate.m in Sources */,
-				AE04CC531EABAC78006B4499 /* main.m in Sources */,
+				AEC62E4320A1465300DFC8B9 /* ViewController.m in Sources */,
+				AEC62E4E20A1465400DFC8B9 /* main.m in Sources */,
+				AEC62E4020A1465300DFC8B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE04CC5A1EABAC78006B4499 /* Main.storyboard */ = {
+		AEC62E4420A1465300DFC8B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE04CC5B1EABAC78006B4499 /* Base */,
+				AEC62E4520A1465300DFC8B9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AE04CC5F1EABAC78006B4499 /* LaunchScreen.storyboard */ = {
+		AEC62E4920A1465400DFC8B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE04CC601EABAC78006B4499 /* Base */,
+				AEC62E4A20A1465400DFC8B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -219,6 +197,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -226,6 +205,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -252,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -273,6 +253,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -280,6 +261,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -300,48 +282,66 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AE04CC661EABAC78006B4499 /* Debug */ = {
+		AEC62E4F20A1465400DFC8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_AutoGrowthTextView/AutoGrowthTextView",
+					"$(PROJECT_DIR)/KZ_AutoGrowthTextView_iOS/AutoGrowthTextView",
 				);
-				INFOPLIST_FILE = KZ_AutoGrowthTextView/Info.plist;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_AutoGrowthTextView_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AutoGrowthTextView;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AutoGrowthTextView-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AE04CC671EABAC78006B4499 /* Release */ = {
+		AEC62E5020A1465400DFC8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_AutoGrowthTextView/AutoGrowthTextView",
+					"$(PROJECT_DIR)/KZ_AutoGrowthTextView_iOS/AutoGrowthTextView",
 				);
-				INFOPLIST_FILE = KZ_AutoGrowthTextView/Info.plist;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_AutoGrowthTextView_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AutoGrowthTextView;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AutoGrowthTextView-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -357,11 +357,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE04CC651EABAC78006B4499 /* Build configuration list for PBXNativeTarget "KZ_AutoGrowthTextView" */ = {
+		AEC62E5120A1465400DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_AutoGrowthTextView_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE04CC661EABAC78006B4499 /* Debug */,
-				AE04CC671EABAC78006B4499 /* Release */,
+				AEC62E4F20A1465400DFC8B9 /* Debug */,
+				AEC62E5020A1465400DFC8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
