@@ -13,7 +13,7 @@
 		AEC62E4820A1465400DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC62E4720A1465400DFC8B9 /* Assets.xcassets */; };
 		AEC62E4B20A1465400DFC8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62E4920A1465400DFC8B9 /* LaunchScreen.storyboard */; };
 		AEC62E4E20A1465400DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62E4D20A1465400DFC8B9 /* main.m */; };
-		AEC62E5420A1469100DFC8B9 /* KZ_AutoGrowthTextView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62E5320A1469100DFC8B9 /* KZ_AutoGrowthTextView_iOS.framework */; };
+		AEF94D6A2175E1FC0063EE69 /* KZ_AutoGrowthTextView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D692175E1FC0063EE69 /* KZ_AutoGrowthTextView_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		AEC62E4A20A1465400DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEC62E4C20A1465400DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEC62E4D20A1465400DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEC62E5320A1469100DFC8B9 /* KZ_AutoGrowthTextView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AutoGrowthTextView_iOS.framework; sourceTree = "<group>"; };
+		AEF94D692175E1FC0063EE69 /* KZ_AutoGrowthTextView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AutoGrowthTextView_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC62E5420A1469100DFC8B9 /* KZ_AutoGrowthTextView_iOS.framework in Frameworks */,
+				AEF94D6A2175E1FC0063EE69 /* KZ_AutoGrowthTextView_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 		AEC62E5220A1469100DFC8B9 /* AutoGrowthTextView */ = {
 			isa = PBXGroup;
 			children = (
-				AEC62E5320A1469100DFC8B9 /* KZ_AutoGrowthTextView_iOS.framework */,
+				AEF94D692175E1FC0063EE69 /* KZ_AutoGrowthTextView_iOS.framework */,
 			);
 			path = AutoGrowthTextView;
 			sourceTree = "<group>";
@@ -311,7 +311,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AutoGrowthTextView-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AutoGrowthTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,7 +339,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AutoGrowthTextView-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AutoGrowthTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
